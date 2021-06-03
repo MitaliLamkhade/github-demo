@@ -4,7 +4,10 @@ def add(x,y):
 
 #Substract implementation
 def subtract(x,y):
-    pass
+    if y>x:		#main branch
+	return ERROR
+    else:
+	return x-y
 
 #Multiply implementation
 def multiply(x,y):
